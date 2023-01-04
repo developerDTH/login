@@ -4,11 +4,11 @@
 
 const id = document.querySelector("#id"),
 passwd = document.querySelector("#passwd"),
-loginbtn = document.querySelector("button");
+loginbtn = document.querySelector("#button");
 
-loginbtn.addEventListener("click",login);
+loginbtn.addEventListener("click",register);
 
-function login(){
+function register(){
     const req ={
         id:id.value,
         passwd:passwd.value
